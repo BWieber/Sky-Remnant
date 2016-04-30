@@ -1,53 +1,16 @@
-# Sky-remnant
+# Sky-Remnant
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Sky Remnant is a real-time strategy RPG set in a fantasy world where mysterious forces have opened up the skies for airship travel.
 
-## Prerequisites
+People from all walks of life have taken to the skies in search of adventure. From mercenaries to merchants, to outlaws, a new frontier has opened for all those willing to venture forth.
 
-You will need the following things properly installed on your computer.
+You play as captain of your ship. It's your job to recruit crew members, upgrade your ship, earn money and bolster your name among the sea of new adventurers.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+#Features
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+1. Four distinct classes. Captain, Gunner, Medic and Engineer each with their own skill tree.
+2. Numerous ships you can build and upgrade.
+3. Flying drones you can acquire and use as a trump card in combat.
+4. Special bounties you can undertake, hunting pirates, rebels and other of the worlds most wanted.
+5. World map traversal using a node system, with multiple zones, and cities to explore.
+6. Day and night cycle, and variable weather that can have a drastic effect on combat.
