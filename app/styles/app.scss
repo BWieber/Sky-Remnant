@@ -1,11 +1,10 @@
 @import "bootstrap";
 
-$bgDefault      : #9255db;
-$bgHighlight    : #1a52d8;
+$bgDefault      : #2a37b1;
+$bgHighlight    : #25aae1;
 $colDefault     : #ecf0f1;
-$colHighlight   : #ffffff;
+$colHighlight   : #201a51;
 $dropDown       : true;
-
 .navbar-default {
   background-color: $bgDefault;
   border-color: $bgHighlight;
@@ -17,7 +16,6 @@ $dropDown       : true;
     color: $colDefault; }
   .navbar-nav {
     > li {
-      text-align: center;
       > a {
         color: $colDefault;
         &:hover,  &:focus {
@@ -138,4 +136,15 @@ background-size: cover;
   to {
     background-position: 100% 0;
   };
+}
+
+#header_ship img {
+  max-width:20%;
+  max-height:20%;
+  margin-left: 915px;
+}
+
+#main_logo img {
+  max-width:35%;
+  max-height:35%;
 }
