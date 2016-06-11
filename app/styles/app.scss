@@ -79,6 +79,25 @@ $dropDown       : true;
   text-align: center;
 }
 
+#aurora {
+  background: url(/assets/images/header_sky.png);
+  background-repeat: repeat-x;
+  padding-top: 350px;
+}
+
+#back_clouds {
+  background: url(/assets/images/header_backclouds.png);
+}
+
+.six-layer-test {
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/images/skyremnant_logo_mid.png), url(/assets/images/header_ship_firstdraft.png), url(/assets/images/header_midclouds.png), url(/assets/images/header_landloop.png), url(/assets/images/header_backclouds.png), url(/assets/images/header_sky.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 27%, 17%, 400%, 200%, 200%, 115%;
+  background-position: center 24px, 990px 275px, center, bottom center, bottom center, center;
+}
+
 #awan {
 width:100%;
 height:100%;
@@ -142,9 +161,9 @@ background-size: cover;
   max-width:20%;
   max-height:20%;
   margin-left: 915px;
+
 }
 
 #main_logo img {
-  max-width:35%;
-  max-height:35%;
+  background-image: url(/assets/images/skyremnant_logo_mid.png);
 }
