@@ -1,5 +1,61 @@
 @import "bootstrap";
 
+/*** MAJOR TAGS ***/
+
+body {
+  background-color: #2a37b1;
+}
+
+/*** CLASSES ***/
+
+.jumbotron {
+  width: 100%
+}
+
+.nav-options {
+  color: #25aae1;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:  634px;
+    height: 356px;
+}
+
+.example-image-link {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #fff;
+  line-height: 0;
+  border-radius: 4px;
+  transition: background-color 0.5s ease-out;
+}
+
+.example-image {
+  width: 35rem;
+  border-radius: 4px;
+}
+
+/*** IDS ***/
+
+#screenShotCarousel {
+
+}
+
+/*** LAYERED HEADER ***/
+
+.six-layer-test {
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/images/skyremnant_logo_mid.png), url(/assets/images/header_ship_firstdraft.png), url(/assets/images/header_midclouds.png), url(/assets/images/header_landloop.png), url(/assets/images/header_backclouds.png), url(/assets/images/header_sky.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 27%, 17%, 400%, 200%, 200%, 117%;
+  background-position: center 24px, 990px 275px, center, bottom center, bottom center, center;
+}
+
+/*** NAV BAR ***/
+
 $bgDefault      : #2a37b1;
 $bgHighlight    : #25aae1;
 $colDefault     : #ecf0f1;
@@ -79,24 +135,7 @@ $dropDown       : true;
   text-align: center;
 }
 
-#aurora {
-  background: url(/assets/images/header_sky.png);
-  background-repeat: repeat-x;
-  padding-top: 350px;
-}
-
-#back_clouds {
-  background: url(/assets/images/header_backclouds.png);
-}
-
-.six-layer-test {
-  width: 100%;
-  height: 500px;
-  background-image: url(/assets/images/skyremnant_logo_mid.png), url(/assets/images/header_ship_firstdraft.png), url(/assets/images/header_midclouds.png), url(/assets/images/header_landloop.png), url(/assets/images/header_backclouds.png), url(/assets/images/header_sky.png);
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 27%, 17%, 400%, 200%, 200%, 115%;
-  background-position: center 24px, 990px 275px, center, bottom center, bottom center, center;
-}
+/*** BASIC CLOUD ANIMATION ***/
 
 #awan {
 width:100%;
@@ -105,10 +144,6 @@ text-align:center;
 background-color:#C0DEED;
 background: url(https://abs.twimg.com/images/themes/theme1/bg.png) center top repeat-x;
 background-size: cover;
-
-
-
-
 
   animation: awan-animasi 50s linear infinite;
   -ms-animation: awan-animasi 50s linear infinite;
@@ -155,15 +190,4 @@ background-size: cover;
   to {
     background-position: 100% 0;
   };
-}
-
-#header_ship img {
-  max-width:20%;
-  max-height:20%;
-  margin-left: 915px;
-
-}
-
-#main_logo img {
-  background-image: url(/assets/images/skyremnant_logo_mid.png);
 }
