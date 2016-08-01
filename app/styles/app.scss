@@ -8,6 +8,10 @@ body {
 
 /*** CLASSES ***/
 
+.clear {
+  clear:both;
+}
+
 .game-description {
   color: white;
 }
@@ -37,7 +41,7 @@ body {
 }
 
 .example-image {
-  width: 35rem;
+  width: 25rem;
   border-radius: 4px;
 }
 
@@ -46,6 +50,35 @@ body {
 #screenShotCarousel {
 
 }
+
+/*** LOGO ***/
+
+.main-logo {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*** MAIN CONTENT ***/
+
+.main-content {
+  border: 2px solid white;
+  color: white;
+  background: black;
+  height: 900px;
+  width: 625px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+/*** FOOTER ***/
+
+.footer {
+  bottom: 0;
+}
+
+
 
 /*** LAYERED HEADER ***/
 
