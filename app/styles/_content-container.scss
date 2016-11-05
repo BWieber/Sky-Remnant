@@ -1,0 +1,42 @@
+.trailer-image-group {
+  height: 2000px;
+  width: 100%;
+  background-color: black;
+  margin-top: 56%;
+  position: absolute;
+}
+
+.video-box {
+  height: 13em;
+  width: 25em;
+  margin-left: 2%;
+  z-index: 7;
+  border: 5px solid gray;
+  position: absolute;
+}
+
+.mid-line {
+  height: 2000px;
+  width: 3px;
+  background-color: gray;
+  position: absolute;
+  margin-left: 50%;
+  z-index: 7;
+}
+
+.image-box {
+  width: 1000px;
+  margin-left: 48%;
+  margin-top: 35%;
+  z-index: 7;
+}
+
+.filler-box {
+  width: 25em;
+  height: 13em;
+  margin-top: 8%;
+  margin-left: 2%;
+  background-color: gray;
+  z-index: 8;
+  position: absolute;
+}
