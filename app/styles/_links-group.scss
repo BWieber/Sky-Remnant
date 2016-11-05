@@ -18,26 +18,57 @@
   border-right: 1000px solid transparent;
   border-top: 350px solid black;
   z-index: 25;
+
+  @include mobile {
+    margin-left: 0%;
+    border-left: 211px solid transparent;
+    border-right: 211px solid transparent;
+    border-top: 200px solid black;
+    margin-top: 27%;
+  }
 }
 
 
 .link-ship-image {
   width: 23%;
+
+  @include mobile {
+    width: 30%;
+    position: absolute;
+  }
 }
 
  .link-ship-image--far-left {
    margin-top: -26%;
 
+   @include mobile {
+     margin-top: -28%;
+   }
+
  }
 
  .link-ship-image--mid-left {
-
+   @include mobile {
+     margin-top: -5%;
+     margin-left: 18%;
+   }
  }
 
  .link-ship-image--mid-right {
    margin-left: 5%;
+
+   @include mobile {
+     margin-left: 56%;
+     margin-top: -5%;
+   }
  }
 
  .link-ship-image--far-right {
    margin-top: -26%;
+
+   @include mobile {
+     margin-top: -27%;
+     margin-left: 71%;
+   }
+
  }
