@@ -6,22 +6,43 @@
 
 .remnant-background {
   margin-left: 25%;
-  width: 57%;
+  width: 10%;
   margin-top: -5%;
   z-index: 1;
+
+  @include mobile {
+    margin-left: 17%;
+    width: 75%;
+    margin-top: -1%;
+    z-index: 1;
+  }
 }
 
 .main-logo {
-  width: 28%;
+  width: 5%;
   margin-left: 37%;
   margin-top: 9%;
   z-index: 3;
+
+  @include mobile {
+    width: 31%;
+    margin-left: 36%;
+    margin-top: 22%;
+    z-index: 3;
+  }
 }
+
+
 
 .crew-header {
   width: 100%;
   margin-top: 13%;
   z-index: 4;
+
+  @include mobile {
+    margin-top: 32%;
+
+  }
 }
 
 .tagline {
@@ -31,5 +52,12 @@
   margin-left: 23%;
   margin-top: 45%;
   color: white;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
+
+  @include mobile {
+    font-size: 13px;
+    z-index: 6;
+    margin-left: 21%;
+    margin-top: 69%;
+  }
 }

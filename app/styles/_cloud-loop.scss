@@ -7,6 +7,12 @@
   animation: backgroundScroll 100s linear infinite;
   z-index: 3;
   position: absolute;
+
+  @include mobile {
+    width: 100%;
+    height: 46%;
+    margin-top: -32%;
+  }
 }
 
 @-webkit-keyframes backgroundScroll {

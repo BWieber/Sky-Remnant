@@ -4,6 +4,10 @@
   background-color: black;
   margin-top: 56%;
   position: absolute;
+
+  @include mobile {
+    height: 1200px;
+  }
 }
 
 .video-box {
@@ -13,6 +17,16 @@
   z-index: 7;
   border: 5px solid gray;
   position: absolute;
+
+  @include mobile {
+    height: 101px;
+    width: 177px;
+    margin-left: 4%;
+    margin-top: 24%;
+    z-index: 7;
+    position: absolute;
+    border: none;
+  }
 }
 
 .mid-line {
@@ -22,6 +36,16 @@
   position: absolute;
   margin-left: 50%;
   z-index: 7;
+
+  @include mobile {
+    height: 1000px;
+    background-color: gray;
+    margin-top: 23%;
+  }
+}
+
+
+.img-row {
 }
 
 .image-box {
@@ -29,6 +53,22 @@
   margin-left: 48%;
   margin-top: 35%;
   z-index: 7;
+
+  @include mobile {
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: 68%;
+  }
+}
+
+.example-image {
+  width: 25rem;
+  border-radius: 4px;
+
+  @include mobile {
+    width: 8rem;
+  }
 }
 
 .filler-box {
