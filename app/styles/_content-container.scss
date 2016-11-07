@@ -6,26 +6,22 @@
   position: absolute;
 
   @include mobile {
-    height: 790px;
+    height: 625px;
   }
 }
 
 .video-box {
-  height: 13em;
-  width: 25em;
-  margin-left: 2%;
+  height: 10%;
+  width: 40%;
+  margin-left: 5%;
   z-index: 7;
-  border: 5px solid gray;
+  margin-top: 24%;
+
+  border: 1px solid gray;
   position: absolute;
 
   @include mobile {
-    height: 101px;
-    width: 177px;
-    margin-left: 4%;
-    margin-top: 24%;
-    z-index: 7;
-    position: absolute;
-    border: none;
+    margin-top: 29%;
   }
 }
 
@@ -38,7 +34,7 @@
   z-index: 7;
 
   @include mobile {
-    height: 665px;
+    height: 90%;
     background-color: gray;
     margin-top: 23%;
   }
@@ -67,7 +63,7 @@
   border-radius: 4px;
 
   @include mobile {
-    width: 7rem;
+    width: 59px;
   }
 }
 
@@ -81,9 +77,9 @@
   position: absolute;
 
   @include mobile {
-    height: 101px;
-    width: 177px;
-    margin-top: -25%;
+    height: 10%;
+    width: 42%;
+    margin-top: -23%;
     margin-left: 4%;
   }
 }
